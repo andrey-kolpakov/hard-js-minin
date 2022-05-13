@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=aQkgUUmUJy4&list=PLqKQF2ojwm3l4oPjsB9chrJmlhZ-zO
 
 1. Урок 1. JavaScript. Что такое prototype. JavaScript Prototype (English Subs)
 2. Урок 2. JavaScript. Что такое контекст this. Как работает call, bind, apply
-3. 
+3. Урок 3. JavaScript. Что такое замыкания. Как они работают (+ примеры)
 4. 
 5. 
 6. 
