@@ -79,14 +79,14 @@ const array1 = [12,3,567,4]
 Array.prototype.multBy = function(n){
     console.log(this.map((el) => el * n))
 
-    /* 
+    /*  
 
     //Более полный вариант выражения выше со стрелочной функцией
     console.log(this.map(function(el){
         return el * n
     })) 
     
-    */
+    */   
 }
 
 array.multBy(5)

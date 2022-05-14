@@ -92,6 +92,26 @@ mikhail('Красавчек', 'толстый')             //Михаил Кр�
 
 
 
+//Счетчик
+function counter(i){
+
+    return function(){
+        return i += 1
+    }
+}
+
+let newCounter = counter(2)
+
+console.log(newCounter())
+console.log(newCounter())
+console.log(newCounter())
+
+
+let secondCounter = counter(111)
+console.log(secondCounter())
+console.log(secondCounter())
+console.log(secondCounter())
+
 
 
 
