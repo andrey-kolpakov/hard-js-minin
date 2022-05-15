@@ -1,16 +1,15 @@
 //Асинхронность.Что такое Event Loop. JS SetTimeout 0
 
 
+
 //Синхронность
 console.log('start')
 console.log('start 2')
-
 //Операции выполнены синхронно (по порядку в коде)
 
 
 
 //Асинхронность
-
 setTimeout(function(){
     console.log('start 4. Logged after 2000ms')
 }, 2000)
@@ -33,3 +32,5 @@ console.log('start 3')
 
 //Что если поставить setTimeout(function(){console.log('hui'), 0})?
 //Сначала выполнится всё остальное, ТОЛЬКО ПОТОМ выполнится Callback Queue. Web Api зафиксирует задержку в 0мс, но интерпретатор всё равно выполнит все синхронные операции перед тем, как запускать очередь из асинхронных callback-ов
+
+//http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKZnVuY3Rpb24gY2hlY2soKXsKICAgIGNvbnNvbGUubG9nKCdodWknKQp9CgpzZXRUaW1lb3V0KGNoZWNrLCAyMDAwKQ%3D%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D

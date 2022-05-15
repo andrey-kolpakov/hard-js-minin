@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=aQkgUUmUJy4&list=PLqKQF2ojwm3l4oPjsB9chrJmlhZ-zO
 2. Урок 2. JavaScript. Что такое контекст this. Как работает call, bind, apply
 3. Урок 3. JavaScript. Что такое замыкания. Как они работают (+ примеры)
 4. Урок 4. JavaScript. Асинхронность.Что такое Event Loop. JS SetTimeout 0
-5. 
+5. Урок 5. JavaScript. Promise. Что это, как работает (+ пример)
 6. 
 7. 
 8. 

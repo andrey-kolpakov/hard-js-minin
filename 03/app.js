@@ -94,7 +94,7 @@ mikhail('Красавчек', 'толстый')             //Михаил Кр�
 
 //Счетчик
 function counter(i){
-
+    
     return function(){
         return i += 1
     }
