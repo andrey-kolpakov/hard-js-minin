@@ -7,8 +7,8 @@ https://www.youtube.com/watch?v=aQkgUUmUJy4&list=PLqKQF2ojwm3l4oPjsB9chrJmlhZ-zO
 3. Урок 3. JavaScript. Что такое замыкания. Как они работают (+ примеры)
 4. Урок 4. JavaScript. Асинхронность.Что такое Event Loop. JS SetTimeout 0
 5. Урок 5. JavaScript. Promise. Что это, как работает (+ пример)
-6. 
-7. 
+6. Урок 6. JavaScript. Объекты с Object.create. Что такое getters, setters
+7. Урок 7. JavaScript. Все о ES6 Классах (+ Практическое Применение)
 8. 
 9. 
 10. 
